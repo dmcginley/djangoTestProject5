@@ -1,0 +1,12 @@
+/* google Kumbh Sans - https://fonts.google.com/specimen/Kumbh+Sans?query=Kumbh+Sans&vfonly=true */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;400;800 &display=swap');
+
+
+main {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.img-down {
+    height: 200px;
+}

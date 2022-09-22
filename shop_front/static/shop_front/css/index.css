@@ -1,0 +1,23 @@
+body {
+    color: rgb(24, 24, 24);
+    background-color: rgb(245, 245, 245);
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+}
+
+
+/* .img-down {
+    width: 100%;
+}
+
+@media screen and(min-width: 600px) {
+
+    .img-down {
+        width: 50vw;
+        max-width: 600px;
+        background-color: aqua;
+    }
+} */
