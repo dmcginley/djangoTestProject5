@@ -1,12 +1,23 @@
-/* google Kumbh Sans - https://fonts.google.com/specimen/Kumbh+Sans?query=Kumbh+Sans&vfonly=true */
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;400;800 &display=swap');
+body {
+    color: rgb(24, 24, 24);
+    background-color: rgb(245, 245, 245);
+}
 
-
-main {
-    font-family: 'Kumbh Sans', sans-serif;
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
 }
 
 
-.img-down {
-    height: 200px;
+/* .img-down {
+    width: 100%;
 }
+
+@media screen and(min-width: 600px) {
+
+    .img-down {
+        width: 50vw;
+        max-width: 600px;
+        background-color: aqua;
+    }
+} */
