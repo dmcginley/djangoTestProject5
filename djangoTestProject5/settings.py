@@ -30,7 +30,7 @@ DEBUG = os.environ.get('DEBUG_VALUE') == 'True'
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-77d3.up.railway.app']
+# CSRF_TRUSTED_ORIGINS = ['https://web-production-77d3.up.railway.app']
 
 
 # Application definition
@@ -122,8 +122,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-# TIME_ZONE = 'UTC'
-TIME_ZONE = 'Europe/Dublin'
+TIME_ZONE = 'UTC'
+# TIME_ZONE = 'Europe/Dublin'
 
 
 USE_I18N = True
