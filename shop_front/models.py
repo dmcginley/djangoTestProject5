@@ -12,16 +12,12 @@ CATEGORY = (
     ('OW', 'Out Wear')
 )
 
-LABEL = (
-    ('N', 'New'),
-    ('BS', 'Best Seller')
-)
-
 
 class Item(models.Model):
     item_name = models.CharField(max_length=100)
-    price = models.FloatField()
-    description = models.TextField()
+    discount_price = models.FloatField(blank=True, null=True)
+    category = models.CharField(choices=CATEGORY, max_length=2)
+    description = models.TextField(blank=True, null=True)
 
     def __str__(self):
         return self.item_name
